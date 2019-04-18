@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.effect div {
+    margin: auto;
+    transition: .8s;
+}
+
+
+.navbar-brand{
+    color: white;
+    font-family: fantasy;
+    line-height: 35px;
+    display: block;
+    transition: all 0.5s;
+    opacity: 0.8;
+}
+
+.navbar-brand:hover{
+    opacity: 1;
+}
+
+body{
+    margin: 0;
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+@keyframes RightToLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+.header h1{
+    animation-duration: 2s;
+    animation-name: RightToLeft;
+}
+
+h1,h2,h4,h6{
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+.home{
+    color: white;
+}
+
+.header{
+    background-image: url(../css/bg-image/photo-1551214012-84f95e060dee.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.intro{
+    text-align: center;
+}
+
+.header h1{
+    text-align: center;
+    font-size: 80px;
+    padding-top: 350px;
+    margin: 0;
+}
+
+.gra{
+    width: 250px;
+    height:250px;
+    background: linear-gradient(to right, red, orange,purple);
+    margin: 0 auto;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+.photo{
+    padding: 5px 5px;
+    border-radius: 50%;
+}
+
+.name-top{
+    color: gray;
+    padding-top: 20px;
+}
+
+.name-bottom{
+    color: gray;
+    padding-bottom: 10px;
+}
+
+.box-name{
+    color: gray;
+}
+
+.contents{
+    text-align: center;
+}
+
+.mini-title{
+    padding-top: 120px;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex img{
+    background: white;
+    border-radius: 50%;
+    border: 3px solid #f8f8f8;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: -190px;
+}
+
+.square{
+    width: 350px;
+    background: white;  
+    position: relative; 
+}
+
+.mail{
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact ul{
+    list-style-type: none;
+    transform: none;
+    padding: 0;
+    margin-bottom: 50px;
+}
+
+.contact li{
+    text-decoration: none;
+    padding: 0 8px;
+    display: inline; 
+}
+
+.my-dark{
+    color: #343a40;
+}
+
+.contact h5{
+    padding-bottom: 100px;
+}
+
+footer{
+    width: 100%;
+    margin: 0;
+    height: 100px;
+    background-color: #343a40;
+    color: white;
+}
+
+footer p{
+    padding-top: 42px;
+}
+
+.card-text{
+    color: rgb(98, 98, 98);
+}
+
+.line-2{
+  font-weight: 400;
+  font-size: 90px;
+  margin: 0 0;
+}
+
+
